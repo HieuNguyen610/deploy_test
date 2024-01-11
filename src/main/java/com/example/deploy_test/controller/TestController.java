@@ -10,4 +10,9 @@ public class TestController {
     public String health() {
         return "Hello & Welcome to CloudKatha !!!";
     }
+
+    @GetMapping("/check")
+    public String check() {
+        return "check api";
+    }
 }
