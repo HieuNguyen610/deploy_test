@@ -14,4 +14,9 @@ public class TestController {
     public String check() {
         return "check api";
     }
+
+    @GetMapping("/checkB2")
+    public String checkBranch2() {
+        return "check api B2";
+    }
 }
