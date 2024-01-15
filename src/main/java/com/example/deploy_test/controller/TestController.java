@@ -18,6 +18,6 @@ public class TestController {
 
     @GetMapping("/checkB2")
     public String checkBranch2() {
-        return "check api B2";
+        return "check api B3";
     }
 }
