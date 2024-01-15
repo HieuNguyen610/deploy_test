@@ -13,7 +13,7 @@ public class TestController {
 
     @GetMapping("/check")
     public String check() {
-        return "check api check TEST edit";
+        return "check api check edit";
     }
 
     @GetMapping("/checkB2")
